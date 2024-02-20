@@ -98,8 +98,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
-# NFC stack (AOSP)
+# NFC
 PRODUCT_PACKAGES += \
+    init.stnfc.rc \
     NfcNci
 
 # Keylayout
