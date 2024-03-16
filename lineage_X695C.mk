@@ -19,6 +19,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 DEVICE_MAINTAINER := xoo2001
 TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 
 PRODUCT_NAME := lineage_X695C
 PRODUCT_DEVICE := X695C
